@@ -1,12 +1,12 @@
-👕 Fashion-MNIST: Sınıf Bazlı Performans İyileştirme ve Görsel Test Planı
+# 👕 Fashion-MNIST: Sınıf Bazlı Performans İyileştirme ve Görsel Test Planı
 
-📌 Giriş
+## 📌 Giriş
 Bu proje, Fashion-MNIST veri seti üzerinde sınıf bazlı ayrım başarısını artırmak amacıyla yürütülmüştür. Özellikle Shirt sınıfı gibi görsel benzerlik kaynaklı hata üreten sınıflarda targeted augmentasyon, hiperparametre optimizasyonu ve açıklanabilirlik teknikleri uygulanmıştır. Notebook içerisinde tüm teknik süreç markdown hücreleriyle belgelenmiş; preprocessing, model eğitimi, metrik analizi ve görsel test altyapısı adım adım sunulmuştur.
 
-🎯 Proje Amacı
+## 🎯 Proje Amacı
 Modelin sınıf bazlı davranışını analiz ederek, düşük başarı gösteren sınıflarda targeted stratejilerle performans iyileştirmek; metrik takibi ve görsel testlerle modelin genelleme kapasitesini değerlendirmek.
 
-📊 Metrikler
+## 📊 Metrikler
 • 	Doğruluk: %92
 • 	Validation Loss: 0.2378
 • 	En yüksek F1 skorunu üreten yapı: Early Stop + Opt
@@ -14,20 +14,15 @@ Modelin sınıf bazlı davranışını analiz ederek, düşük başarı göstere
 • 	Güçlü sınıflar: Bag, Sneaker, Ankle boot
 • 	Analizler: Confusion matrix, recall, precision, F1-score
 
-🧪 Teknik Süreç
+## 🧪 Teknik Süreç
 • 	Veri ön işleme: normalize, reshape, grayscale
 • 	Model mimarisi: CNN + Dropout + Dense
 • 	Eğitim stratejileri: Early stopping, learning rate tuning
 • 	Görsel test planı: Kaggle ortamında açık kaynak görsellerle gerçeklik testi
 • 	Açıklanabilirlik: Grad-CAM ile dikkat bölgelerinin görselleştirilmesi
 
-🧩 Ekler
-• 	Kaggle Notebook: Model eğitimi ve test süreci
-• 	Görsel test altyapısı: Kaggle üzerinde manuel sorgu ve tahmin
-• 	Streamlit UI klasörü: İleride deploy için örnek script eklenecek
-• 	GPU ortamı: Eğitim ve test süreçleri hızlandırılmıştır
 
-🚀 Sonuç ve Gelecek Çalışmalar
+## 🚀 Sonuç ve Gelecek Çalışmalar
 Model, sınıf bazlı stratejilerle yönlendirilmiş ve metriklerle doğrulanmıştır. Gerçek dünya görselleriyle test süreci bir sonraki fazda tamamlanacaktır. Görsel benzerlik kaynaklı hatalar üzerine detaylı analiz planlanmakta; proje, üretim ortamına entegrasyon ve gerçek zamanlı veri toplama gibi adımlarla genişletilecektir.
 
 🔗 Linkler
